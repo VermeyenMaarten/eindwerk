@@ -14,7 +14,7 @@
         <ul class="nav navbar-nav navbar-right">
 
             <div id="container">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right container-fluid">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
                         <li><a href="{{ route('login') }}">Login</a></li>

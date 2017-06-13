@@ -18,17 +18,6 @@
                     <li class="active"><a href="{{ route('admin.products') }}">All Products</a></li>
                     <li><a href={{ route('admin.add') }}>Add New Product</a></li>
                 </ul>
-
-
-                <li data-toggle="collapse" data-target="#service" class="collapsed">
-                    <a href="#"><i class="fa fa-comments fa-lg"></i> Posts <span class="arrow"></span></a>
-                </li>
-                <ul class="sub-menu collapse" id="service">
-                    <li class="active"><a href="#">All Posts</a></li>
-                    <li><a href="#">Add New Post</a></li>
-                </ul>
-
-
                 <li>
                     <a href="{{ route('admin.orders') }}">
                         <i class="fa fa-credit-card fa-lg"></i> Orders

@@ -10,13 +10,10 @@
                 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
             </p>
 
-            <div class="footer-icons">
-
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-                <a href="#"><i class="fa fa-instagram"></i></a>
-
-            </div>
+            <h2 class="footer-icons" style="color:#fff">
+                <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i>
+                <i class="fa fa-cc-amex"></i> <i class="fa fa-cc-discover"></i> <i class="fa fa-cc-jcb"></i>
+            </h2>
 
         </div>
 
@@ -41,7 +38,7 @@
 
         <div class="footer-right">
 
-            <h3 class="footer-company-name">Gymlife</h3>
+            <h4>GYMLIFE.com</h4>
 
             <div>
                 <a class="footer-links" href="#" >Contact</a>
@@ -56,10 +53,13 @@
                 <a class="footer-links" href="#" >Shipping & Return</a>
             </div>
 
-            <h2 class="footer-icons" style="color:#000000">
-                <i class="fa fa-cc-visa"></i> <i class="fa fa-cc-mastercard"></i>
-                <i class="fa fa-cc-amex"></i> <i class="fa fa-cc-discover"></i> <i class="fa fa-cc-jcb"></i>
-            </h2>
+            <div class="footer-icons">
+
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+
+            </div>
 
         </div>
 

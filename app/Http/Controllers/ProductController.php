@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Product;
 use Session;
+use Auth;
 use Stripe\Stripe;
 use Stripe\Charge;
 
@@ -92,7 +93,7 @@ class ProductController extends Controller
                 "description" => "Test Charge"
             ));
             $order = new \App\Order([
-                'cart' => serialize($cart),
+                'cart' => json_encode($cart),
                 'name' => $request->input('name'),
                 'address' => $request->input('address'),
                 'postal_code' => $request->input('zip'),
@@ -108,5 +109,15 @@ class ProductController extends Controller
 
         Session::forget('cart');
         return redirect('/')->with('checkout-success', 'Succesfully Purchased!');
+    }
+
+
+    public function getOrders() {
+        $orders = Auth::admin()->orders;
+        $orders->transform(function($order, $key) {
+            $order->cart = unserialize($order->cart);
+            return $order;
+        });
+        return view('pages.admin-orders', ['orders' => $orders]);
     }
 }

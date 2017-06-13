@@ -22,9 +22,15 @@
                         <th>Country</th>
                     </tr>
                     @foreach ($orders as $order)
+
                         <tr>
                             <td>
-                                <div>{{ "cart moet nog komen!!" }}</div>
+                                <div>
+                                    <?php $data = json_decode($order->cart, true); ?>
+                                        @foreach ($data['items'] as $item)
+                                            {{ $item['item']['title'] }} <?php echo "  |  $" ?> {{ $item['item']['price'] }}
+                                        @endforeach
+                                </div>
                             </td>
                             <td>
                                 <div>{{ $order->name }}</div>

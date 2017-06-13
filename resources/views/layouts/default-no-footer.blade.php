@@ -9,7 +9,7 @@
     @include('includes.header')
 </header>
 
-<div class="container-fluid">
+<div class="container">
 
     <div id="main" class="row">
 
@@ -17,12 +17,6 @@
 
     </div>
 
-</div>
-
-<div>
-    <footer class="row">
-        @include('includes.footer')
-    </footer>
 </div>
 
 </body>

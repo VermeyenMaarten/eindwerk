@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.default-no-footer')
 @section('content')
 
     @if(Session::has('cart'))

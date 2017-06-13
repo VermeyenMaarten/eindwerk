@@ -5,9 +5,10 @@
  */
 
 body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /* padding-top: 70px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     height: 100%;
     width: 100%;
+
 }
 
 .caption {
@@ -63,7 +64,7 @@ a:hover {
 }
 
 .admin-table {
-    margin-top:30px;
+    margin-top:60px;
 }
 
 .orders-table td{
@@ -83,7 +84,7 @@ a:hover {
 }
 
 .footer-distributed{
-    background-color: #ebebeb;
+    background-color: #33383b;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
     box-sizing: border-box;
     width: 100%;
@@ -109,16 +110,17 @@ a:hover {
 
 /* The company logo */
 
-.footer-distributed h3{
+.footer-distributed h4{
     color:  #5383d3;
-    font: normal 36px 'Times New Roman';
+    font: normal 25px 'Times New Roman';
     margin: 0;
+    margin-bottom: 5px;
 }
 
 /* Footer links */
 
 .footer-distributed .footer-links{
-    color:  #000000;
+    color:  #ffffff;
     font-size: 14px;
     margin: 20px 0 12px;
     padding: 0;
@@ -145,7 +147,7 @@ a:hover {
 }
 
 .footer-distributed .footer-center i{
-    background-color:  #33383b;
+    background-color:  #5e5e5e;
     color: #ffffff;
     font-size: 25px;
     width: 38px;
@@ -164,7 +166,7 @@ a:hover {
 
 .footer-distributed .footer-center p{
     display: inline-block;
-    color: #000000;
+    color: #ffffff;
     vertical-align: middle;
     margin:0;
 }
@@ -198,7 +200,7 @@ a:hover {
 
 .footer-distributed .footer-company-about span{
     display: block;
-    color:  #000000;
+    color:  #ffffff;
     font-size: 14px;
     font-weight: bold;
     margin-bottom: 20px;
@@ -214,7 +216,7 @@ a:hover {
     height: 35px;
     cursor: pointer;
     text-decoration: none;
-    background-color:  #33383b;
+    background-color:  #5e5e5e;
     border-radius: 2px;
 
     font-size: 20px;
