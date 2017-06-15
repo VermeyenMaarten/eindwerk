@@ -21,6 +21,7 @@ class CreateProductsTable extends Migration
             $table->text('discription');
             $table->integer('category');
             $table->integer('price');
+            $table->integer('featured');
         });
     }
 

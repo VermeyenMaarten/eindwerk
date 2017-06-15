@@ -19,6 +19,13 @@ body {
     white-space: nowrap;
 }
 
+.thumbnail {
+    padding: 0;
+}
+.thumbnail h3 {
+    font-size: 20px;
+}
+
 .thumbnail img {
     width: 100%;
 }
@@ -30,16 +37,6 @@ body {
 .price {
     font-weight: bold;
     font-size: 16px;
-}
-
-.ratings {
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #d17581;
-}
-
-.thumbnail {
-    padding: 0;
 }
 
 .thumbnail .caption-full {
@@ -56,11 +53,20 @@ a:hover {
 }
 
 .home-features {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-bottom: 50px;
-    display: inline-block;
-    text-align: center;
+     padding-right: 15px;
+     padding-left: 15px;
+     margin-bottom: 50px;
+     display: inline-block;
+     text-align: center;
+}
+
+.home-features h4{
+    color: #1e90ff;
+}
+
+.featured-products {
+    color: #1e90ff;
+    margin-bottom: 25px;
 }
 
 .admin-table {
@@ -111,7 +117,7 @@ a:hover {
 /* The company logo */
 
 .footer-distributed h4{
-    color:  #5383d3;
+    color:  #1e90ff;
     font: normal 25px 'Times New Roman';
     margin: 0;
     margin-bottom: 5px;
@@ -179,7 +185,7 @@ a:hover {
 }
 
 .footer-distributed .footer-center p a{
-    color:  #5383d3;
+    color:  #1e90ff;
     text-decoration: none;;
 }
 

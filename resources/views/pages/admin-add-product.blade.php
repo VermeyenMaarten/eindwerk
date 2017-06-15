@@ -48,6 +48,12 @@
                     <input class="form-control input-lg" id="imagePath" type="text" placeholder="Image url" name="imagePath"
                            required>
                 </div>
+                    <br>
+                    <div class="form-group">
+                        <label>Featured</label>
+                        <br>
+                        <input id="featured" type="checkbox" name="featured" /> Check to feature on front page
+                    </div>
                     </form>
             </div>
         </div>

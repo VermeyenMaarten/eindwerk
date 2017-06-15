@@ -58,7 +58,8 @@ class AdminController extends Controller
             'title' => $request->input('name'),
             'discription' => $request->input('description'),
             'category' => $request->input('category'),
-            'price' => $request->input('price')
+            'price' => $request->input('price'),
+            'featured' => (isset($_POST['featured'])) ? 1 : 0
         ]);
 
         $product->save();

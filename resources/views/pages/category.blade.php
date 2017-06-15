@@ -1,7 +1,7 @@
 @extends('layouts.default')
 @section('content')
 
-    @foreach($products->chunk(3) as $productChunk)
+    @foreach($products->chunk(4) as $productChunk)
         <div class="row">
             @foreach($productChunk as $product)
                 <div class="col-sm-9 col-md-3">

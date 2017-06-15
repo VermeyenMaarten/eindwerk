@@ -8,13 +8,14 @@ use Illuminate\Http\Request;
 use App\Product;
 use Session;
 use Auth;
+use DB;
 use Stripe\Stripe;
 use Stripe\Charge;
 
 class ProductController extends Controller
 {
     public function getIndex() {
-        $products = Product::all();
+        $products = DB::table('products')->where('featured', '=', 1)->get();
         return view('pages.home', ['products' => $products]);
     }
 

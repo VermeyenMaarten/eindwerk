@@ -3,13 +3,13 @@
 @section('content')
 
     <div class="row">
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-3">
                 <div class="thumbnail">
                     <img src= {{$product->imagePath}} alt="...">
                 </div>
         </div>
 
-        <div class="col-sm-6 col-md-4" style="background-color:#f0f0f0;padding:20px;">
+        <div class="col-sm-6 col-md-3" style="background-color:#f0f0f0;padding:20px;">
             <div class="caption">
                 <h3> {{$product->title}} </h3>
 

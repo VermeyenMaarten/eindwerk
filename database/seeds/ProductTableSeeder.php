@@ -16,7 +16,8 @@ class ProductTableSeeder extends Seeder
             'title' => 'Gold Standerd Whey',
             'discription' => 'Packed With Whey Protein Isolates And Fast-Acting HYDROWHEY Whey Peptides!',
             'category' => '1',
-            'price' => 30
+            'price' => 30,
+            'featured' => 1
         ]);
 
         $product->save();
@@ -26,7 +27,8 @@ class ProductTableSeeder extends Seeder
             'title' => 'Mammoth Mass Gainer',
             'discription' => 'Mammoth is designed for everybody who wants to gain some serious weight',
             'category' => '2',
-            'price' => 45
+            'price' => 45,
+            'featured' => 0
         ]);
 
         $product->save();
@@ -36,7 +38,8 @@ class ProductTableSeeder extends Seeder
             'title' => 'Epic V2',
             'discription' => 'Creatine that stimulates muscle growth',
             'category' => '3',
-            'price' => 35
+            'price' => 35,
+            'featured' => 1
         ]);
 
         $product->save();

@@ -68,10 +68,12 @@
                 </div>
             </div>
 
-        @foreach($products->chunk(3) as $productChunk)
+<h3 class="featured-products"> Featured Products </h3>
+
+        @foreach($products->chunk(4) as $productChunk)
             <div class="row">
                 @foreach($productChunk as $product)
-                    <div class="col-sm-6 col-md-4">
+                    <div class="col-sm-6 col-md-3">
                         <div class="thumbnail">
                             <img src={{$product->imagePath}} alt="...">
                             <div class="caption">
@@ -90,7 +92,6 @@
             @endforeach
                 </div>
             @endforeach
-
             <!-- /.container -->
             </div>
 
