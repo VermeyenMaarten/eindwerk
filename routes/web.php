@@ -77,7 +77,7 @@ Route::get('/amino-acids' , [
 
 
 //View per product
-Route::get('/{id}', [
+Route::get('/product/{id}', [
     'uses' => 'productController@getProduct',
     'as' => 'product.single'
 ]);

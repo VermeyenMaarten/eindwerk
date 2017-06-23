@@ -2,7 +2,7 @@
 @section('content')
 
     @foreach($products->chunk(4) as $productChunk)
-        <div class="row">
+        <div class="row product-style">
             @foreach($productChunk as $product)
                 <div class="col-sm-9 col-md-3">
                     <div class="thumbnail">

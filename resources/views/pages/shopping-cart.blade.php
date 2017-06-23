@@ -16,6 +16,7 @@
                             </form>
 
                             <span class="badge">{{ $product['qty'] }}</span>
+                            <img style="width:40px;height:40px;" src="{{ $product['item']['imagePath'] }}" />
                             <strong>{{ $product['item']['title'] }}</strong>
                             <span class="label label-success"> ${{ $product['price'] }}</span>
                         </li>

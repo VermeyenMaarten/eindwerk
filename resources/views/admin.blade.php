@@ -68,8 +68,8 @@
                                                     <i class="fa fa-users fa-5x"></i>
                                                 </div>
                                                 <div class="col-xs-6 text-right">
-                                                    <p class="announcement-heading">18</p>
-                                                    <p class="announcement-text">Subscribers</p>
+                                                    <p class="announcement-heading">{{ App\User::count() }}</p>
+                                                    <p class="announcement-text">Users</p>
                                                 </div>
                                             </div>
                                         </div>

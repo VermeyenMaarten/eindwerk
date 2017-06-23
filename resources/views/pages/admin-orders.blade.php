@@ -28,7 +28,7 @@
                                 <div>
                                     <?php $data = json_decode($order->cart, true); ?>
                                         @foreach ($data['items'] as $item)
-                                            {{ $item['item']['title'] }} <?php echo "  |  $" ?> {{ $item['item']['price'] }}
+                                            {{ $item['item']['title'] }} <?php echo "  -  $" ?> {{ $item['item']['price'] }} <br>
                                         @endforeach
                                 </div>
                             </td>

@@ -52,7 +52,6 @@ class ProductController extends Controller
         $cart = new Cart($oldCart);
         $cart->removeItem($id);
 
-        //verwijdert alles uit cart !!!!
         $request->session()->pull('cart', $cart);
 
         return redirect()->route('product.index');

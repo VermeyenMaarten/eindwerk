@@ -10,7 +10,7 @@
         @endif
         @if(Session::has('checkout-success'))
                 <div class="alert alert-success" role="alert" >
-                    <strong>{{ Session::get('success') }}</strong>
+                    <strong>{{ Session::get('checkout-success') }}</strong>
                 </div>
             @endif
 
@@ -68,7 +68,7 @@
                 </div>
             </div>
 
-<h3 class="featured-products"> Featured Products </h3>
+<h2 class="featured-products"> Featured Products </h2>
 
         @foreach($products->chunk(4) as $productChunk)
             <div class="row">
